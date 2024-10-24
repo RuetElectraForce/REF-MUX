@@ -80,6 +80,10 @@ Each line corresponds to a full set of sensor readings.
 
 This project is open-source. Feel free to use, modify, and distribute the code as needed.
 
+---------------
 
+https://www.facebook.com/profile.php?id=61559693071191
+
+www.youtube.com/@RUETElectraForce
 
 
