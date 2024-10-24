@@ -1,4 +1,5 @@
 
+![REF_MUX](https://github.com/user-attachments/assets/54111067-1a31-478d-b74d-ae7df1634f70)
 
 # Sensor Multiplexer Interface for 14 Analog Sensors
 
