@@ -1,25 +1,28 @@
 
 
-
 # Sensor Multiplexer Interface for 14 Analog Sensors
 
 The sensors are connected via a 4-bit addressing system, allowing the microcontroller to cycle through each sensor sequentially, read the values, and print the data to the serial monitor.
 
 ## Features
 
-- Supports up to 14 analog sensors using a MUX for channel addressing.
+- Supports up to 14 analog sensors using REF-MUX for channel addressing.
 - Adjustable MUX control pins to adapt to various hardware setups.
 
 ## Hardware Requirements
 
-- Arduino (e.g., Uno, Nano, etc.)
+To use the provided code, you need the following hardware: 
+
+- Arduino (any dev board or microcontroller that has Arduino IDE support) 
 - 14 analog sensors
--REF-MUX
+- REF-MUX
 - Jumper wires and a breadboard for connections
 
 ### MUX Pin Configuration
 
 Ensure that the following pins are connected correctly:
+
+(You can use any digital pin for connecting with A, B, C ,D and any analog pin for Analog Input) 
 
 | MUX Control Pin | Arduino Pin |
 |-----------------|-------------|
@@ -56,7 +59,7 @@ The data from each sensor is printed to the serial monitor in a tab-separated fo
 
 Example output:
 ```
-1023    1000    987     950     920     910     850     800     780     760     700     690     680     670
+1023    1000    987     950     920     910     904     896     880     860     849     830     813     810
 ```
 
 Each line corresponds to a full set of sensor readings.
@@ -75,6 +78,7 @@ Each line corresponds to a full set of sensor readings.
 ## License
 
 This project is open-source. Feel free to use, modify, and distribute the code as needed.
+
 
 
 
